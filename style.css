@@ -53,11 +53,32 @@ html{
     font-size: 3.3rem;
 
 }
+.content-customer-support{
+    display: flex;
+    flex-direction: column;
+}
+
+.container-logo{
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.container-logo i{
+    font-size: 3rem;
+
+}
 
 .container-logo h1 a {
     color: #000;
     font-size: 3rem;
-    text-transform: ;
+     text-transform:uppercase ;
+     letter-spacing: -1px; 
+}
+.container-user{
+    display: flex;
+    gap: 1rem;
+    cursor: pointer;
 }
 
 .container-user .fa-user {
@@ -71,4 +92,24 @@ html{
     color: var(--primary-color);
     padding-left: 1rem;
 }
-.container
+.content-shopping-cart{
+    display: flex;
+    flex-direction: column;
+
+}
+
+/* ***Navbar */
+
+.container-navbar{
+    background-color: var(--primary-color);
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 0;
+}
+
+.navbar .fa-bars{
+    display: none;
+}
